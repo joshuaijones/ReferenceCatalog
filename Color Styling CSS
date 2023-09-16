@@ -1,0 +1,41 @@
+// Keyword color assignment
+h1 {
+  color: aqua;
+}
+
+______________________________
+
+// rgba() - red, green, blue + alpha (opacity>
+.midground {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.hot-pink {
+  color: rgb(249, 2, 171);
+}
+
+______________________________
+
+// hsla() - hue, saturation, and lightness + alpha (for opacity)
+.foreground {
+  background-color: hsla(34, 100%, 50%, 0.1);
+}
+
+.light-blue {
+  background-color: hsl(200, 70%, 50%);
+}
+
+______________________________
+
+// create a fully transparent option 
+.transparent {
+  color: transparent;
+}
+
+______________________________
+
+
+// hexadecimal color assignment
+.red {
+  color: #ff0000;
+}
