@@ -1,0 +1,39 @@
+/* breadcrumbs should utilize an unordered list. The ul
+should be assigned a class breadcrumb to reference in the css
+file. Individual items may be assigned a class to differentiate
+between location pointers or attributes. This way you can write 
+specific css for each class
+*/
+
+<ul class='breadcrumb'>                                  
+  <li class='location'><a href="#">Shop</a></li>
+  <li class='location'><a href="#">Groceries</a></li>        
+  <li class='location'><a href="#">Blueberries</a></li>
+  <li class='attribute'><a href="#">Organic</a></li>
+</ul>
+
+// the css may appear as follows
+// for li items inside an object with class .breadcrumb
+.breadcrumb > li { 
+  display: inline;
+}
+
+// find two items of li.location next to each other
+// create a pseudoelement for each instance
+.breadcrumb li.location+li.location::before {
+  content: "/ ";
+}
+
+// assign different formatting for attributes to distiguish
+.breadcrumb li.attribute a {
+  color: gray;
+}
+
+// assign a tag or additional identifcation for attributes
+.breadcrumb li.attribute::after {
+  content: 'x';
+  color: green;
+  font-size: 10px;
+  vertical-align: super;
+}
+
