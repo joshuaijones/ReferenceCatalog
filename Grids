@@ -1,13 +1,22 @@
 // grid layouts are two-dimensional: they have a row (or inline axis) and a column (or block axis).
+// https://i.stack.imgur.com/yedYz.png
 
 // specifies grid named grid areas
-grid-template-areas 
+grid-template-areas: 
+            "x x x"
+            "y z z"
+            "y z z";
+// pair with declarations of row and column length with   grid-template-rows/grid-template-columns
+  grid-template-rows: 50px 1fr 20%;
+  grid-template-columns: 150px 1fr 30%;
 
-// specifies how individual elements should spread across the row axis
-justify-items 
+// specifies how individual elements should spread across the row axis: items alignment left and right
+justify-items:
+  assignment options: center, start, end, stretch
 
-// specifies how groups of elements should spread across the row axis
-justify-content 
+// specifies how groups of elements should spread across the row axis: 
+justify-content:
+  assignment options: start, center, space-between, space-around, space-evenly
 
 // specifies how a single element should position itself with respect to the row axis
 justify-self 
