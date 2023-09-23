@@ -1,4 +1,4 @@
-// grid layouts are two-dimensional: they have a row, or inline, axis and a column, or block, axis.
+// grid layouts are two-dimensional: they have a row (or inline axis) and a column (or block axis).
 
 // specifies grid named grid areas
 grid-template-areas 
