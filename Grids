@@ -18,7 +18,6 @@ justify-items:
 justify-content:
   assignment options: start, center, space-between, space-around, space-evenly
 
-
 // specifies how a single element should position itself with respect to the row axis
 justify-self 
 
