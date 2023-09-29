@@ -3,6 +3,7 @@
 
 
 
+
 // specifies grid named grid areas
 grid-template-areas: 
             "x x x"
