@@ -2,4 +2,4 @@
 
 this is a reference catalog for topics and ideas learned
 
-undo
+look through different concepts
