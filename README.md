@@ -5,6 +5,3 @@ look through different concepts
 
 
 
-
-
-
